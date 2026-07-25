@@ -34,7 +34,7 @@ A single youth-sports or team shoot can produce thousands of frames, all with ca
 
 ## Built with
 
-Python, FastAPI, React, Supabase (Postgres and Storage), computer-vision APIs, Stripe, and Docker. The platform includes multi-user accounts, a credit system with reserve and refund on failure so failed images are never charged, and production billing.
+Python, FastAPI, React, Supabase (Postgres and Storage), computer-vision APIs, and Docker. It handles batch uploads with real-time per-image progress and per-image error isolation, so one failed image never breaks the rest of the batch.
 
 ## Status
 
